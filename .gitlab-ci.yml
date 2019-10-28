@@ -50,7 +50,6 @@ staging:
     name: stage 
     url: https://beta.example.com 
 
-
 production: 
   stage: production 
   when: manual
