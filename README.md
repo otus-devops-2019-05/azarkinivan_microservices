@@ -1,3 +1,35 @@
+## Выполнено ДЗ №16
+
+ - Основное ДЗ
+
+## В процессе сделано:
+
+ - Развернута ВМ с использованием docker-machine
+ - Запустили и ознакомились с Prometheus. Создали образ
+ - Запустили микросервисы. Создали образы
+ - Провели корректировку docker-compose под Prometheus. Добавили aliases для DB
+ - Поэкспериментировали с мониторингом
+ - Развернули node_exporter. Собрали метрики.
+ - Запушили полученные образы в docker hub
+
+## Как запустить проект:
+```
+docker-compose up -d
+```
+## Как проверить работоспособность:
+По ссылке:
+```
+https://travis-ci.com/otus-devops-2019-05/azarkinivan_microservices
+```
+## Образы
+```
+https://cloud.docker.com/u/azarkinivan/repository/list
+```
+
+## PR checklist
+Выставил label - monitoring и monitoring-1
+
+
 ## Выполнено ДЗ №15
 
  - Основное ДЗ
