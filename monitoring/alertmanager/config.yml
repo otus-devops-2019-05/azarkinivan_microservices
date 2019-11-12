@@ -1,0 +1,11 @@
+global:
+  slack_api_url: 'https://hooks.slack.com/services/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'
+
+route:
+  receiver: 'slack-notifications'
+
+receivers:
+- name: 'slack-notifications'
+  slack_configs:
+  - channel: '#ivan_azarkin'
+

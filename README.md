@@ -1,3 +1,36 @@
+## Выполнено ДЗ №17
+
+ - Основное ДЗ
+
+## В процессе сделано:
+
+ - Развернут cAdvisor для мониторинга контейнеров
+ - Разделены docker-compose конфигурации на app и monitoring
+ - Развернута Grafana, построены дашборды
+ - Произведен мониторинг работы приложений и бизнес-метрик
+ - Развернут Alertmanager, настроен алертинг и  интеграция со Slacл
+ - Запушили полученные образы в docker hub
+
+## Как запустить проект:
+```
+docker-compose up -d
+docker-compose -f docker-compose-monitoring.yml up -d
+```
+## Как проверить работоспособность:
+По ссылке:
+```
+https://travis-ci.com/otus-devops-2019-05/azarkinivan_microservices
+```
+## Образы
+```
+https://cloud.docker.com/u/azarkinivan/repository/list
+```
+
+## PR checklist
+Выставил label - monitoring и monitoring-2
+
+
+
 ## Выполнено ДЗ №16
 
  - Основное ДЗ
