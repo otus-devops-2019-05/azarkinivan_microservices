@@ -1,3 +1,24 @@
+## Выполнено ДЗ №19
+
+ - Основное ДЗ
+
+## В процессе сделано:
+
+ - Произвел ручную конфигурацию kubernetes по THW
+
+## Как запустить проект:
+```
+kubectl apply -f <filename>
+```
+## Как проверить работоспособность:
+По ссылке:
+```
+https://travis-ci.com/otus-devops-2019-05/azarkinivan_microservices
+```
+## PR checklist
+Выставил label - Kubernetes и kubernetes-1
+
+
 ## Выполнено ДЗ №18
 
  - Основное ДЗ
