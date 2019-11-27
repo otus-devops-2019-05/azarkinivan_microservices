@@ -5,7 +5,7 @@
 ## В процессе сделано:
 
  - Развернул локальное окружение для работы с Kubernetes: kubectl, minikube
- - Произвел настройку модулей приложения: comment, post, mongodb + сервисы
+ - Произвел настройку модулей приложения: comment, post, mongodb
  - Ознакомился с minikube
  - Развернул Kubernetes в GKE
  - Запустил приложение в Kubernetes
