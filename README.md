@@ -1,3 +1,28 @@
+## Выполнено ДЗ №20
+
+ - Основное ДЗ
+
+## В процессе сделано:
+
+ - Развернул локальное окружение для работы с Kubernetes: kubectl, minikube
+ - Произвел настройку модулей приложения: comment, post, mongodb + объекты Services
+ - Ознакомился с minikube
+ - Развернул Kubernetes в GKE
+ - Запустил приложение в Kubernetes
+
+## Как запустить проект:
+```
+kubectl apply -n dev -f <filename>
+```
+## Как проверить работоспособность:
+По ссылке:
+```
+https://travis-ci.com/otus-devops-2019-05/azarkinivan_microservices
+```
+## PR checklist
+Выставил label - Kubernetes и kubernetes-2
+
+
 ## Выполнено ДЗ №19
 
  - Основное ДЗ
